@@ -1,9 +1,9 @@
-.heroe {
+.hero {
   background-color: #f9f7fe;
   text-align: center;
   padding: 150px 20px;
 }
-.heroe h3 {
+.hero h3 {
   font-family: "Poppins", sans-serif;
   font-weight: 700;
   font-style: normal;
@@ -12,7 +12,7 @@
 
   color: rgba(39, 33, 66, 1);
 }
-.heroe h1 {
+.hero h1 {
   font-family: "Playfair Display", serif;
   font-weight: bold;
   font-style: normal;
@@ -22,7 +22,7 @@
   line-height: auto;
 }
 
-.heroe h2 {
+.hero h2 {
   font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-style: normal;
@@ -30,7 +30,7 @@
   color: rgba(39, 33, 66, 1);
   line-height: auto;
 }
-.heroe .btn-branding {
+.hero .btn-branding {
   background: rgba(108, 99, 255, 1);
   border-radius: 4px;
   font-family: "Poppins", sans-serif;
@@ -40,4 +40,78 @@
   line-height: auto;
   font-size: 18px;
   padding: 18px 30px;
+}
+.header {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18px;
+  color: rgba(39, 33, 66, 1);
+  line-height: auto;
+}
+.btn-about {
+  border: 1px solid rgba(136, 93, 241, 1);
+  border-radius: 4px;
+  color: rgba(108, 99, 255, 1);
+  line-height: auto;
+  font-size: 16px;
+  padding: 18px 30px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  text-align: center;
+  transition: none;
+  background-color: white;
+}
+.about,
+.skill {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 64px;
+  line-height: auto;
+}
+.about-paragraph {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: rgba(39, 33, 66, 0.7);
+  font-size: 16px;
+  line-height: 30px;
+  text-align: justify;
+}
+.about-block {
+  margin-top: 100px;
+}
+
+.skill-block {
+  margin-top: 60px;
+}
+.soft,
+.hard {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  color: rgba(39, 33, 66, 0.7);
+  font-size: 25px;
+  line-height: 30px;
+}
+.about-me {
+  background-color: #f9f7fe;
+}
+
+@media (max-width: 600px) {
+  .my-photo {
+    width: 200px;
+    height: 200px;
+    display: block;
+    margin: auto;
+  }
+  .hero {
+    padding: 40px 5px;
+  }
+  .hero h1 {
+    font-size: 40px;
+  }
 }

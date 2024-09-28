@@ -1,22 +1,43 @@
-h1 {
+.heroe {
+  background-color: #f9f7fe;
+  text-align: center;
+  padding: 150px 20px;
+}
+.heroe h3 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 36px;
+  line-height: auto;
+
+  color: rgba(39, 33, 66, 1);
+}
+.heroe h1 {
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 96px;
+  color: rgba(0, 0, 0, 1);
+
+  line-height: auto;
+}
+
+.heroe h2 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 24px;
+  color: rgba(39, 33, 66, 1);
+  line-height: auto;
+}
+.heroe .btn-branding {
+  background: rgba(108, 99, 255, 1);
+  border-radius: 4px;
   font-family: "Poppins", sans-serif;
   font-weight: 500;
   font-style: normal;
+  color: white;
+  line-height: auto;
+  font-size: 18px;
+  padding: 18px 30px;
 }
-p {
-  font-family: "Playfair Display", serif;
-  font-optical-sizing: auto;
-  font-weight: 700;
-  font-style: normal;
-}
-/*.poppins-bold {
-  font-family: "Poppins", sans-serif;
-  font-weight: 700;
-  font-style: normal;
-
-.playfair-display-<uniquifier> {
-  font-family: "Playfair Display", serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
-}}*/

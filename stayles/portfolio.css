@@ -30,7 +30,7 @@
   color: rgba(39, 33, 66, 1);
   line-height: auto;
 }
-.hero .btn-branding {
+.btn-branding {
   background: rgba(108, 99, 255, 1);
   border-radius: 4px;
   font-family: "Poppins", sans-serif;
@@ -81,8 +81,13 @@
   line-height: 30px;
   text-align: justify;
 }
-.about-block {
-  margin-top: 100px;
+.my-name {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 50px;
+  line-height: 25px;
 }
 
 .skill-block {
@@ -97,8 +102,10 @@
   font-size: 25px;
   line-height: 30px;
 }
-.about-me {
-  background-color: #f9f7fe;
+.my-photo {
+  border-radius: 20px 20px;
+  width: 800px;
+  height: 600px;
 }
 
 @media (max-width: 600px) {
@@ -112,6 +119,11 @@
     padding: 40px 5px;
   }
   .hero h1 {
+    font-size: 40px;
+  }
+  .about-block h1 {
+    margin-top: 10px;
+    margin-bottom: 0;
     font-size: 40px;
   }
 }

@@ -23,33 +23,65 @@
       href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
       rel="stylesheet"
     />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      rel="stylesheet"
+    />
     <title>Document</title>
   </head>
   <body>
-    <div class="container">
-      <nav class="d-flex justify-content-between mt-2 mb-3 pt-3">
-        <a href="/index.html"><p style="font-size: 20px">Fasika Belayneh</p></a>
-        <ul>
-          <li class="pe-5 active">
-            <a href="/index.html"> Home</a>
-          </li>
-          <li class="pe-5"><a href="/about.html">About</a></li>
-          <li class="pe-5"><a href="/project.html">Project</a></li>
-          <li class="pe-5"><a href="/contact.html">Contact</a></li>
-        </ul>
-      </nav>
+    <div class="hero p-0 fixed-top">
+      <div class="container">
+        <nav class="d-flex justify-content-between mt-2 mb-3 pt-3">
+          <a href="/index.html"
+            ><p style="font-size: 20px">Fasika Belayneh</p></a
+          >
+          <ul>
+            <li class="pe-5">
+              <a href="/index.html"> Home</a>
+            </li>
+            <li class="pe-5"><a href="/about.html">About</a></li>
+            <li class="pe-5"><a href="/project.html">Project</a></li>
+            <li class="pe-5 active"><a href="/contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
     </div>
-    <div class="hero text-center mt-5 pt-5">
-      <h1 class="mb-5 my-name">Let us get in touch!</h1>
+    <div class="mb-5 mt-5 pt-5 pb-5">
+      <div class="text-center mt-5 pt-5">
+        <h1 class="mb-5 my-name">Let us get in touch!</h1>
 
-      <h3>Email</h3>
-      <a href="mailto:fafibelayneh@gmail.com">fafibelayneh@gmail.com</a>
-      <h3>linkedin</h3>
-      <a
-        href="https://www.linkedin.com/in/fasika-belayneh-846473258?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
-        target="_blank"
-        >linkedin</a
-      >
+        <h3>Email <i class="fa-regular fa-envelope"></i></h3>
+        <a href="mailto:fafibelayneh@gmail.com">fafibelayneh@gmail.com</a>
+        <h3 class="pt-2">linkedin <i class="fa-brands fa-linkedin"></i></h3>
+        <a
+          href="https://www.linkedin.com/in/fasika-belayneh-846473258?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+          target="_blank"
+          >linkedin</a
+        >
+        <h3 class="pt-2">GitHub <i class="fa-brands fa-github"></i></h3>
+        <a href="https://github.com/fafffff">https://github.com/fafffff</a>
+      </div>
     </div>
+    <footer class="mt-3">
+      <div class="hero">
+        <div class="email-link">
+          <a href="mailto:fafibelayneh@gmail.com" class="text-decoration-none"
+            >fafibelayneh@gmail.com</a
+          >
+        </div>
+        <div class="social-links text-center mt-1 mb-3">
+          <a
+            href="https://www.linkedin.com/in/fasika-belayneh-846473258?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+            target="_blank"
+            ><i class="fa-brands fa-linkedin m-3"></i></a
+          ><a href="https://github.com/fafffff" target="_blank"
+            ><i class="fa-brands fa-github m-3"></i></a
+          ><a href="mailto:fafibelayneh@gmail.com"
+            ><i class="fa-regular fa-envelope m-3"></i
+          ></a>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>

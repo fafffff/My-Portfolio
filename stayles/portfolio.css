@@ -126,7 +126,34 @@ nav a {
 }
 nav a:hover {
   color: rgba(108, 99, 255, 1);
-  text-decoration: underline;
+}
+.email-link {
+  text-decoration: none;
+  font-size: 24px;
+  text-align: center;
+}
+.email-link a {
+  text-decoration: none;
+  font-size: 24px;
+  text-align: center;
+  color: #000;
+  padding-top: 30px;
+}
+.email-link a:hover {
+  color: rgba(108, 99, 255, 1);
+}
+.social-links a i {
+  font-size: 20px;
+  text-align: center;
+  padding: 10px 14px;
+  background-color: #f9f7fe;
+  border-radius: 50%;
+  border: 0 solid #f9f7fe;
+  transition: all 150ms ease-in-out;
+}
+.social-links a i:hover {
+  background-color: rgba(108, 99, 255, 1);
+  color: white;
 }
 @media (max-width: 600px) {
   .my-photo {

@@ -3,86 +3,111 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Fasika Belayneh - Junior Front-End Developer specializing in HTML5, CSS3, and JavaScript, based in Ethiopia">
+    <meta 
+        name="description" 
+        content="Fasika Belayneh - Junior Full Stack Developer specializing in HTML5, CSS3, and JavaScript. Cybersecurity student based in Ethiopia creating modern web experiences."
+    >
     <meta name="author" content="Fasika Belayneh">
+    <meta name="keywords" content="Front-End Developer, Ethiopia, HTML5, CSS3, JavaScript, Web Development, Cybersecurity">
     
-    <!-- Preconnect to external resources -->
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://yourportfolio.com">
+    <meta property="og:title" content="Fasika Belayneh | Front-End Developer">
+    <meta property="og:description" content="Junior Full Stack Developer & Cybersecurity Student creating modern web experiences">
+    
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Fasika Belayneh | Front-End Developer">
+    <meta name="twitter:description" content="Junior Full Stack Developer & Cybersecurity Student creating modern web experiences">
+
+    <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    
-    <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
     
     <!-- Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     
     <!-- Styles -->
-    <link rel="stylesheet" href="/styles/portfolio.css">
+    <link rel="stylesheet" href="styles/portfolio.css">
     
     <!-- Favicon -->
     <link rel="icon" type="image/x-icon" href="/favicon.ico">
     
-    <title>Fasika Belayneh | Front-End Developer</title>
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://yourportfolio.com">
+    
+    <title>Fasika Belayneh | Front-End Developer & Cybersecurity Student</title>
 </head>
 <body>
     <header class="header">
-        <nav class="nav">
+        <nav class="nav-container" aria-label="Main navigation">
             <a href="/" class="nav-logo" aria-label="Home">Fasika Belayneh</a>
-            <ul class="nav-list">
-                <li><a href="#home" class="nav-link active">Home</a></li>
-                <li><a href="#about" class="nav-link">About</a></li>
-                <li><a href="#projects" class="nav-link">Projects</a></li>
-                <li><a href="#contact" class="nav-link">Contact</a></li>
+            <ul class="nav-menu" role="list">
+                <li><a href="/" class="nav-link active" aria-current="page">Home</a></li>
+                <li><a href="/about.html" class="nav-link">About</a></li>
+                <li><a href="/project.html" class="nav-link">Projects</a></li>
+                <li><a href="/contact.html" class="nav-link">Contact</a></li>
             </ul>
         </nav>
     </header>
 
-    <main>
-        <section id="home" class="hero">
+    <main class="main-content">
+        <section class="hero" aria-labelledby="main-heading">
             <div class="hero-content">
                 <p class="hero-greeting">👋 Hello, I am</p>
-                <h1 class="hero-title">Fasika Belayneh</h1>
+                <h1 id="main-heading" class="hero-title">Fasika Belayneh</h1>
                 <h2 class="hero-subtitle">Junior Front-End Developer based in Ethiopia</h2>
-                <a href="#about" class="cta-button">Explore My Work</a>
-            </div>
-        </section>
-
-        <!-- Add About, Projects sections here -->
-
-        <section id="contact" class="contact">
-            <div class="contact-content">
-                <h2 class="section-title">Get in Touch</h2>
-                <a href="mailto:fafibelayneh@gmail.com" class="email-link">fafibelayneh@gmail.com</a>
-                
-                <div class="social-links">
-                    <a href="https://www.linkedin.com/in/fasika-belayneh-846473258" 
-                       target="_blank" 
-                       rel="noopener noreferrer"
-                       class="social-link"
-                       aria-label="LinkedIn Profile">
-                        <i class="fab fa-linkedin"></i>
-                    </a>
-                    <a href="https://github.com/fafffff" 
-                       target="_blank" 
-                       rel="noopener noreferrer"
-                       class="social-link"
-                       aria-label="GitHub Profile">
-                        <i class="fab fa-github"></i>
-                    </a>
-                </div>
+                <a href="/about.html" class="cta-button" title="Learn more about Fasika">Explore Portfolio</a>
             </div>
         </section>
     </main>
 
-    <footer class="footer">
-        <p class="footer-text">
-            This project is <a href="https://github.com/fafffff/My-Portfolio" 
-                             target="_blank" 
-                             rel="noopener noreferrer"
-                             class="source-link">
-                             open-source on GitHub
-                          </a>
-        </p>
+    <footer class="footer" role="contentinfo">
+        <div class="footer-content">
+            <div class="contact-info">
+                <a href="mailto:fafibelayneh@gmail.com" class="email-link">fafibelayneh@gmail.com</a>
+            </div>
+            <nav class="social-nav" aria-label="Social media links">
+                <ul class="social-list" role="list">
+                    <li>
+                        <a href="https://www.linkedin.com/in/fasika-belayneh-846473258" 
+                           target="_blank" 
+                           rel="noopener noreferrer"
+                           class="social-link"
+                           aria-label="LinkedIn Profile">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/fafffff" 
+                           target="_blank" 
+                           rel="noopener noreferrer"
+                           class="social-link"
+                           aria-label="GitHub Profile">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="mailto:fafibelayneh@gmail.com" 
+                           class="social-link"
+                           aria-label="Send Email">
+                            <i class="far fa-envelope"></i>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            <p class="footer-credit">
+                Crafted with ❤️ by Fasika Belayneh | 
+                <a href="https://github.com/fafffff/My-Portfolio" 
+                   class="source-link"
+                   rel="noopener noreferrer"
+                   target="_blank">
+                    Open-Source Code
+                </a>
+            </p>
+        </div>
     </footer>
 </body>
 </html>

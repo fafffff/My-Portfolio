@@ -24,16 +24,32 @@
     <title>Fasika Belayneh | Front-End Developer & Cybersecurity Student</title>
 </head>
 <body>
-    <input type="checkbox" id="dark-mode-toggle" class="hidden-toggle">
-    
-    <header class="header">
+  <input type="checkbox" id="dark-mode-toggle" class="hidden-toggle">
+  <input type="checkbox" id="mobile-menu-toggle" class="hidden-toggle">
+  
+  <header class="header">
       <nav class="nav-container" aria-label="Main navigation">
-          <a href="/" class="nav-logo" aria-label="Home">Fasika Belayneh</a>
+          <a href="index.html" class="nav-logo" aria-label="Home">Fasika Belayneh</a>
+          
+          <!-- Mobile Menu Toggle -->
+          <label for="mobile-menu-toggle" class="menu-toggle">
+              <span class="hamburger"></span>
+          </label>
+  
+          <!-- Navigation Links -->
           <ul class="nav-menu" role="list">
-              <li><a href="index.html" class="nav-link active">Home</a></li>
+              <li><a href="index.html" class="nav-link">Home</a></li>
               <li><a href="about.html" class="nav-link">About</a></li>
               <li><a href="project.html" class="nav-link">Projects</a></li>
               <li><a href="contact.html" class="nav-link">Contact</a></li>
+              
+              <!-- Dark Mode Toggle -->
+              <li class="theme-toggle-item">
+                  <label for="dark-mode-toggle" class="theme-toggle">
+                      <span class="toggle-icon moon"><i class="fas fa-moon"></i></span>
+                      <span class="toggle-icon sun"><i class="fas fa-sun"></i></span>
+                  </label>
+              </li>
           </ul>
       </nav>
   </header>
